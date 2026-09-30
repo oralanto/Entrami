@@ -22,3 +22,11 @@ npm run build   # build de production
 ## Persistance
 
 Aucune base de données : les questions sont dans les fichiers de traduction, et les questions déjà posées sont mémorisées dans le `localStorage` du navigateur (une question ne revient pas tant que le paquet n'est pas terminé).
+
+## Workflow Git
+
+`feature/<nom>` → `develop` → `main`
+
+- `main` : version stable / en production.
+- `develop` : intégration des nouvelles fonctionnalités.
+- `feature/<nom>` : une branche par fonctionnalité, créée depuis `develop`, fusionnée dans `develop` via une pull request. `develop` est ensuite fusionnée dans `main`.
