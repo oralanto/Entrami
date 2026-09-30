@@ -19,16 +19,6 @@ npm test        # tests unitaires
 npm run build   # build de production
 ```
 
-## Ajouter un jeu
-
-1. Créer `src/games/<id>/` avec un composant de jeu.
-2. Créer `src/i18n/locales/fr/<id>.json` (`name`, `tagline`, `description`, `rules`…) et l'enregistrer dans `src/i18n/index.ts`.
-3. Déclarer le jeu dans `src/games/registry.ts` : il apparaît sur l'accueil.
-
-## Ajouter une langue
-
-Copier `src/i18n/locales/fr/` vers `src/i18n/locales/<lng>/`, traduire, puis l'ajouter à `resources` dans `src/i18n/index.ts`.
-
 ## Persistance
 
 Aucune base de données : les questions sont dans les fichiers de traduction, et les questions déjà posées sont mémorisées dans le `localStorage` du navigateur (une question ne revient pas tant que le paquet n'est pas terminé).
