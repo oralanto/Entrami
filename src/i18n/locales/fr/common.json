@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Entrami",
+    "tagline": "Des jeux pour passer du bon temps entre amis",
+    "description": "Un téléphone, quelques amis, une bonne ambiance. Choisissez un jeu et lancez la soirée."
+  },
+  "home": {
+    "gamesTitle": "Nos jeux",
+    "play": "Jouer"
+  },
+  "game": {
+    "play": "Jouer",
+    "rulesTitle": "Règles du jeu",
+    "back": "Tous les jeux"
+  },
+  "theme": {
+    "toDark": "Activer le mode sombre",
+    "toLight": "Activer le mode clair"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "back": "Retour à l'accueil"
+  }
+}
