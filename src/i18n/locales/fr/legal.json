@@ -1,0 +1,105 @@
+{
+  "updated": "Dernière mise à jour : {{date}}",
+  "mentions": {
+    "title": "Mentions légales",
+    "sections": [
+      {
+        "title": "Éditeur du site",
+        "paragraphs": [
+          "Le site Entrami est édité à titre non professionnel par {{editorName}}, personne physique.",
+          "Directeur de la publication : {{editorName}}.",
+          "Contact : via les issues du dépôt GitHub du projet ({{repoUrl}}/issues)."
+        ]
+      },
+      {
+        "title": "Hébergement",
+        "paragraphs": ["Le site est hébergé par {{hostName}}, {{hostAddress}}."]
+      },
+      {
+        "title": "Nature du site",
+        "paragraphs": [
+          "Entrami est un site gratuit de jeux de soirée entre amis. Il ne propose aucune vente et ne diffuse aucune publicité.",
+          "Les jeux ont un but purement humoristique. Certaines questions abordent des thèmes pour adultes (relations, alcool, soirées) : le site s'adresse à un public majeur (18 ans et plus)."
+        ]
+      },
+      {
+        "title": "Responsabilité",
+        "paragraphs": [
+          "Le site et ses jeux sont fournis « en l'état », sans garantie de disponibilité permanente. Les questions sont des jeux d'humour : chaque joueur reste responsable de ses propos et de ses actes.",
+          "L'abus d'alcool est dangereux pour la santé. À consommer avec modération. Si vous avez bu, ne prenez pas le volant."
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "paragraphs": [
+          "Les textes, questions, graphismes et le code du site sont la propriété de l'éditeur, sauf mention contraire. Toute reproduction ou réutilisation sans autorisation préalable est interdite.",
+          "Le code source est consultable sur {{repoUrl}}."
+        ]
+      },
+      {
+        "title": "Données personnelles",
+        "paragraphs": ["Le traitement des données est détaillé dans la page « Politique de confidentialité »."]
+      },
+      {
+        "title": "Droit applicable",
+        "paragraphs": ["Les présentes mentions sont soumises au droit français."]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "sections": [
+      {
+        "title": "En résumé",
+        "paragraphs": [
+          "Entrami ne demande aucun compte, ne collecte aucune donnée personnelle sur ses serveurs, n'utilise aucun outil de statistiques, aucune publicité et aucun cookie de suivi."
+        ]
+      },
+      {
+        "title": "Responsable du site",
+        "paragraphs": ["{{editorName}} — contact : via les issues du dépôt GitHub du projet ({{repoUrl}}/issues)."]
+      },
+      {
+        "title": "Données enregistrées sur votre appareil",
+        "paragraphs": [
+          "Pour fonctionner, le site enregistre deux informations dans le stockage local de votre navigateur. Elles restent sur votre appareil et ne sont jamais envoyées à un serveur :"
+        ],
+        "items": [
+          "Votre choix de thème (clair ou sombre).",
+          "La liste des questions de Kidenou déjà posées, afin qu'elles ne reviennent pas."
+        ],
+        "after": [
+          "Ces données sont strictement nécessaires au service que vous utilisez et ne contiennent aucune information permettant de vous identifier : aucun consentement n'est requis. Vous pouvez les effacer à tout moment via le bouton « Recommencer » du jeu ou en supprimant les données du site dans les réglages de votre navigateur."
+        ]
+      },
+      {
+        "title": "Journaux techniques de l'hébergeur",
+        "paragraphs": [
+          "Comme tout site web, les serveurs de l'hébergeur peuvent enregistrer temporairement des informations techniques (adresse IP, date et page consultée) à des fins de sécurité et de bon fonctionnement. Entrami n'y a pas accès et ne les exploite pas."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "Entrami n'utilise aucun cookie de suivi ou publicitaire, c'est pourquoi aucun bandeau de consentement n'est affiché. Si cela devait changer, cette page serait mise à jour et votre accord serait demandé."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "paragraphs": [
+          "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, d'opposition et de limitation concernant vos données. Pour les exercer, ouvrez une issue sur le dépôt GitHub du projet ({{repoUrl}}/issues).",
+          "Vous pouvez aussi introduire une réclamation auprès de la CNIL (www.cnil.fr)."
+        ]
+      },
+      {
+        "title": "Modifications",
+        "paragraphs": ["Cette politique peut évoluer, notamment si de nouvelles fonctionnalités sont ajoutées. La date de dernière mise à jour figure en haut de la page."]
+      }
+    ]
+  },
+  "footer": {
+    "mentions": "Mentions légales",
+    "privacy": "Confidentialité",
+    "adults": "Jeux réservés aux adultes. L'abus d'alcool est dangereux pour la santé."
+  }
+}
