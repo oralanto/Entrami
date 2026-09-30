@@ -1,10 +1,14 @@
-import { Link, Outlet } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ThemeToggle from './ThemeToggle'
 
 export default function Layout() {
   const { t } = useTranslation()
   const { t: tl } = useTranslation('legal')
+  const { pathname } = useLocation()
+
+  useEffect(() => window.scrollTo(0, 0), [pathname])
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col px-4 pb-6 sm:px-6">
